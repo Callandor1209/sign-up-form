@@ -19,6 +19,7 @@
     background-color: rgb(27, 85, 0);
 }
 .container .main2{
+    background-color: rgb(238, 238, 238);
     flex: 2 1 0%;
 }
 .container .main1 div{
@@ -38,11 +39,39 @@
     font-size: 300%;
     height: 100%;
     font-family: cool-norse-font, sans-serif;
-    opacity: 100%;
+    opacity: 100%; 
     margin-top: 25px;
 
 
 }
 .container .main1 img{
     display: block;
+}
+.paragraph{
+    margin-left: 5vw;
+    margin-top: 10vh;
+    font-weight: 700;
+    font-size: 30px;
+    font-family:'Times New Roman', Times, serif;
+}
+.container .main2 .form{
+    display: block;
+    height: 30vh;
+    width: 100%;
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    margin-top: 20vh;
+    box-shadow: 
+    0px 5px rgba(151, 151, 151, 0.2),
+    0px 9px rgba(202, 202, 202, 0.1),
+    0px 10px rgba(219, 219, 219, 0.05);
+}
+.container .main2 div button{
+    height: 5vh;
+    width: 20vh;
+    margin-top: 60vh;
+    margin-left: 10px;
+    border-radius: 5%;
+    background-color: #596D48;
+    color: white;
 }
