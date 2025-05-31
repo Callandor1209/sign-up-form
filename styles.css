@@ -1,0 +1,48 @@
+@font-face {
+    font-family: cool-norse-font;
+    src: url(../sign-up-form/Images/Norse-Bold.otf);
+}
+
+.container{
+    display: flex;
+}
+
+.container div{
+
+    flex-direction: column;
+    height: 100vh;
+
+
+}
+.container .main1{
+    flex: 1;
+    background-color: rgb(27, 85, 0);
+}
+.container .main2{
+    flex: 2 1 0%;
+}
+.container .main1 div{
+    display: block;
+    position: absolute;
+    height: 100px;
+    width: 33%;
+    background-color: black;
+    margin-top: 100px;
+    opacity: 50%;
+}
+.container .main1 div p {
+    color: rgb(253, 253, 253);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 300%;
+    height: 100%;
+    font-family: cool-norse-font, sans-serif;
+    opacity: 100%;
+    margin-top: 25px;
+
+
+}
+.container .main1 img{
+    display: block;
+}
