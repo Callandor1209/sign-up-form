@@ -32,14 +32,42 @@
                     the project on Github to see the code, and test out the form to see how it works.</p>
                 <div class="form">
                     <p class="signup">Sign up today!</p>
+                    <form action="../sign-up-form/index.html" method="post">
                     <div class="topline">
-                        
+                        <div class="column1">
+                        <label for="first_name">First Name: </label>
+                        <input type="text" name="firstname" id="first_name" required>
                     </div>
-                    <div class="bottomline">
+                    <div class="column2">
+                        <label for="last_name">Last Name: </label>
+                        <input type="text" name="lastname" id="last_name" required>
+                    </div>
+                    </div>
+                    <div class="middleline">
+                        <div class="column1">
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" required>
+                    </div>
+                    <div class="column2"> 
+                        <label for="phonenum">Phone Number:</label>
+                        <input type="number" name="phonenum" id="phonenum" required>
+                    </div>
 
                     </div>
+                    <div class="bottomline">
+                        <div class="column1">
+                        <label for="password">Password: </label>
+                        <input type="password" name="password" id="password" required>
+                    </div>
+                    <div class="column2">
+                        <label for="passwordconfirm">Conform Password: </label>
+                        <input type="password" name="passwordconfirm" id="passwordconfirm" required>
+                    </div>
+
+                    </div>
+                    </form>
                 </div>
-                <button type="submit">Create Account</button>
+                <button type="submit" id="submit">Create Account</button>
                 <div class="login">
                     <p>Already have an account?</p>
                     <p style="color: #596D48;">Log in</p>
