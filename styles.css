@@ -141,8 +141,3 @@
     border-color: lightgray;
     border-width: 0.5px;
 }
-input:invalid{
-    border-color: red !important;
-    border-width: 2px !important;
-    color: red;
-}
