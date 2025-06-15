@@ -40,7 +40,7 @@
     height: 100%;
     font-family: cool-norse-font, sans-serif;
     opacity: 100%; 
-    margin-top: 25px;
+    margin-top: 5vh;
 
 
 }
@@ -141,9 +141,4 @@
     color: white;
     border-color: lightgray;
     border-width: 0.5px;
-}
-input:invalid{
-    border-color: red !important;
-    border-width: 2px !important;
-    color: red;
 }
