@@ -1,7 +1,6 @@
 .container{
     display: flex;
-
-    height: 100vh;
+    height: auto
 }
 .container .sidebar{
     flex: 1;
@@ -20,11 +19,15 @@
     background-color: rgb(228, 228, 228);
     color: black;
 }
+.container .main .body{
+    display: flex;
+
+}
 .container .main .topbar{
     display: block;
     position: fixed;
     height: 20vh;
-    width: 80vw;
+    width: 83vw;
     background-color: rgb(255, 255, 255);
     box-shadow: 
     0px 5px rgba(151, 151, 151, 0.2),
@@ -53,20 +56,6 @@
     place-items: center;
     grid-template-columns: 60px 100px;
     gap: 0px 40px;
-}
-.container .main .body{
-    display: flex;
-    flex-direction: column;
-}
-.container .main .body .right-bar{
-    flex: 1;
-}
-.container .main .body .posts{
-    flex: 5;
-    display: grid;
-    grid-template-columns: 100px 100px;
-    gap: 50px;
-
 }
 .container .topbar .search{
     display: flex;
@@ -129,10 +118,61 @@
     background-color:rgb(36, 183, 252);
     color: black;
     border-radius: 20px;
-    border: opx;
 }
 .container .topbar .bottomsection .buttons button:hover{
     box-shadow:  
+    5px 0px rgba(151, 151, 151, 0.2),
+    9px 0px rgba(202, 202, 202, 0.1),
+    10px 0px rgba(219, 219, 219, 0.05),   
+    0px 5px rgba(151, 151, 151, 0.2),
+    0px 9px rgba(202, 202, 202, 0.1),
+    0px 10px rgba(219, 219, 219, 0.05);
+}
+.container .main .body .posts{
+    flex: 2.5;
+    margin-top: 25vh;
+    height: auto;
+    display: grid;
+    padding-left: 5vw;
+    align-content: space-evenly;
+    gap: 30px;
+    grid-template-columns: 30vw 30vw;
+}
+.container .main .body .posts div{
+    background-color: white;
+    height: 25vh;
+    width: 20vw;
+    border-top: 0px;
+    border-right: 0px;
+    border-bottom: 0px;
+    border-left: 10px;
+    border-radius: 20px;
+    border-color: orange;
+    border-style: solid;
+    box-shadow:    
+    5px 0px rgba(151, 151, 151, 0.2),
+    9px 0px rgba(202, 202, 202, 0.1),
+    10px 0px rgba(219, 219, 219, 0.05),   
+    0px 5px rgba(151, 151, 151, 0.2),
+    0px 9px rgba(202, 202, 202, 0.1),
+    0px 10px rgba(219, 219, 219, 0.05);
+}
+
+.container .main .body .right-bar{
+    flex: 1;
+    margin-top: 25vh;
+    width: 15vw;
+
+}
+.container .main .body .right-bar div{
+
+    margin-bottom: 5.5vh;
+    margin-right: 5vw;
+    height: 30vh;
+    width: 12vw;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow:    
     5px 0px rgba(151, 151, 151, 0.2),
     9px 0px rgba(202, 202, 202, 0.1),
     10px 0px rgba(219, 219, 219, 0.05),   
